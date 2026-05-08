@@ -1,0 +1,64 @@
+diff --git a/signal.c b/signal.c
+index 5110ea4401..93ddda1402 100644
+--- a/signal.c
++++ b/signal.c
+@@ -921,17 +921,20 @@ NORETURN(static ruby_sigaction_t sigbus);
+ static void
+ sigbus(int sig SIGINFO_ARG)
+ {
+-    check_reserved_signal("BUS");
++    // check_reserved_signal("BUS");
+ /*
+  * Mac OS X makes KERN_PROTECTION_FAILURE when thread touch guard page.
+  * and it's delivered as SIGBUS instead of SIGSEGV to userland. It's crazy
+  * wrong IMHO. but anyway we have to care it. Sigh.
+  */
+     /* Seems Linux also delivers SIGBUS. */
++
++    /*
+ #if defined __APPLE__ || defined __linux__
+     CHECK_STACK_OVERFLOW();
+ #endif
+     rb_bug_for_fatal_signal(default_sigbus_handler, sig, SIGINFO_CTX, "Bus Error" MESSAGE_FAULT_ADDRESS);
++    */
+ }
+ #endif
+ 
+@@ -943,9 +946,11 @@ NORETURN(static ruby_sigaction_t sigsegv);
+ static void
+ sigsegv(int sig SIGINFO_ARG)
+ {
++    /*
+     check_reserved_signal("SEGV");
+     CHECK_STACK_OVERFLOW();
+     rb_bug_for_fatal_signal(default_sigsegv_handler, sig, SIGINFO_CTX, "Segmentation fault" MESSAGE_FAULT_ADDRESS);
++    */
+ }
+ #endif
+ 
+@@ -957,9 +962,11 @@ NORETURN(static ruby_sigaction_t sigabrt);
+ static void
+ sigabrt(int sig SIGINFO_ARG)
+ {
++    /*
+     check_reserved_signal("ABRT");
+     CHECK_STACK_OVERFLOW();
+     rb_bug_for_fatal_signal(default_sigabrt_handler, sig, SIGINFO_CTX, "Aborted" MESSAGE_FAULT_ADDRESS);
++    */
+ }
+ #endif
+ 
+@@ -971,11 +978,13 @@ NORETURN(static ruby_sigaction_t sigill);
+ static void
+ sigill(int sig SIGINFO_ARG)
+ {
++    /*
+     check_reserved_signal("ILL");
+ #if defined __APPLE__ || defined __linux__
+     CHECK_STACK_OVERFLOW();
+ #endif
+     rb_bug_for_fatal_signal(default_sigill_handler, sig, SIGINFO_CTX, "Illegal instruction" MESSAGE_FAULT_ADDRESS);
++    */
+ }
+ #endif
+ 
