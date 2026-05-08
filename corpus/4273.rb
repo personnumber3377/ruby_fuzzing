@@ -1,0 +1,1 @@
+class C\u{30b9 30ec 30c3 30c9} < Thread; self; end

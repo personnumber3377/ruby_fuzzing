@@ -1,0 +1,1 @@
+foo = #{foo.inspect}\n#{code}

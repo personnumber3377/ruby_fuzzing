@@ -1,0 +1,1 @@
+def self.x(&blk); blk; end; x { |_, _, _ = 1, *_, _:, _: 2, **_, &_| }.parameters

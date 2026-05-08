@@ -1,0 +1,3 @@
+do
+      public :foo
+    end

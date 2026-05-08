@@ -1,0 +1,1 @@
+def prism_test_optional_keyword_param_node(bar: nil); end

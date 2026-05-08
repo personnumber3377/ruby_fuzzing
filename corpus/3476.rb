@@ -1,0 +1,1 @@
+[1, 2, 3] #{operator} #{constant}[*foo, 1, 2, 3]

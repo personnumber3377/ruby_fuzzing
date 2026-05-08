@@ -1,0 +1,1 @@
+v=1 # -*- encoding: US-ASCII -*-\n__ENCODING__".force_encoding("ASCII-8BIT

@@ -1,0 +1,3 @@
+do
+        require 'zlib'
+      end

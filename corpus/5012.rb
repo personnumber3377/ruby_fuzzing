@@ -1,0 +1,2 @@
+do
+      def a; end

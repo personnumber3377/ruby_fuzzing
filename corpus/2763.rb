@@ -1,0 +1,1 @@
+# encoding: us-ascii\n'foobar'.freeze

@@ -1,0 +1,1 @@
+class C; yield; end

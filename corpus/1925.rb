@@ -1,0 +1,1 @@
+class MatchData_\u{3042} < MatchData; self; end

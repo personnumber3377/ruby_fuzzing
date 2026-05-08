@@ -1,0 +1,1 @@
+350000.times { FOO = :BAR }

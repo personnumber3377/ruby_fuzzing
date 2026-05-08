@@ -1,0 +1,1 @@
+class #{name} < Time;;self;end

@@ -1,0 +1,1 @@
+singleton_class.define_method(:example_define_method_#{$$}_with_keep_script_lines){}

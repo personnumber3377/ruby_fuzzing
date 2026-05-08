@@ -1,0 +1,3 @@
+do
+      x.bar
+    end

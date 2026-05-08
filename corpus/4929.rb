@@ -1,0 +1,3 @@
+do
+      x.foo
+    end

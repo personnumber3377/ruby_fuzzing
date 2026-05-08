@@ -1,0 +1,1 @@
+if /foo/im; end

@@ -1,0 +1,1 @@
+class C\u{1f5ff}; self; end

@@ -1,0 +1,1 @@
+raise 'bang' rescue a = 1; a.nil?

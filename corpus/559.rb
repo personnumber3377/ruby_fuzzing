@@ -1,0 +1,1 @@
+__ENCODING__".encode("utf-16be

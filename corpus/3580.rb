@@ -1,0 +1,1 @@
+a = 1; 1.times do; { a: }; end

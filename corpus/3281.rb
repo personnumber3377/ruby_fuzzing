@@ -1,0 +1,1 @@
+case; when :a, :b; 1; else; 2 end

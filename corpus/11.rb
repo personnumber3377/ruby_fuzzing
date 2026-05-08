@@ -1,0 +1,3 @@
+do
+      condvar.dup
+    end

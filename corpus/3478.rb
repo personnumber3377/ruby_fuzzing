@@ -1,0 +1,1 @@
+begin; [1, 2, 3] => Object[1, 2, 3]; rescue NoMatchingPatternError; true; end

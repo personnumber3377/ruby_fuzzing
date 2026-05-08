@@ -1,0 +1,3 @@
+do
+          open(filename) {}
+        end

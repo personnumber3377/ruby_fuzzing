@@ -1,0 +1,1 @@
+def foo(var: bar {|| var}) var end

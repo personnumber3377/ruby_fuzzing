@@ -1,0 +1,1 @@
+__ENCODING__".force_encoding("ASCII-8BIT

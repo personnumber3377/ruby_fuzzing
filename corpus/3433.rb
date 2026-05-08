@@ -1,0 +1,1 @@
+alias :prism_a :to_s

@@ -1,0 +1,3 @@
+do
+      q.dup
+    end

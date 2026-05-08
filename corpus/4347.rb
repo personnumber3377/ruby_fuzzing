@@ -1,0 +1,1 @@
+# vim: filetype=ruby, fileencoding: US-ASCII, ts=3, sw=3\n__ENCODING__".force_encoding("ASCII-8BIT

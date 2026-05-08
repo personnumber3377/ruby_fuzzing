@@ -1,0 +1,1 @@
+defined?(until a == 1; end)

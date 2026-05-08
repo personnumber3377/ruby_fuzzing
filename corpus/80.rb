@@ -1,0 +1,1 @@
+(1..9).select {|n| true if #{code}}

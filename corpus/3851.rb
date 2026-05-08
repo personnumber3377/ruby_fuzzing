@@ -1,0 +1,2 @@
+do |meth, *args|
+        send

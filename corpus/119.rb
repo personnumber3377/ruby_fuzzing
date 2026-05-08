@@ -1,0 +1,1 @@
+def marg2((a)); nil; end

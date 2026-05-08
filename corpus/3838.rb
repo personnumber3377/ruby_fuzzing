@@ -1,0 +1,2 @@
+do
+      def initialize; end

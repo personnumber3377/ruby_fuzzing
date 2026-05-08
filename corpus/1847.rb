@@ -1,0 +1,1 @@
+1+", nil, "test_syntax_error_path.rb

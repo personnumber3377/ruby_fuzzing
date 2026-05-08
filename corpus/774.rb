@@ -1,0 +1,1 @@
+do |a, *rest, k: nil, **kw, &nil| end

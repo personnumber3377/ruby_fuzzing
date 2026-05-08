@@ -1,0 +1,3 @@
+do
+      warn "warning"
+    end

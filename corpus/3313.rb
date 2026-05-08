@@ -1,0 +1,1 @@
+while true; break 1, 2; end

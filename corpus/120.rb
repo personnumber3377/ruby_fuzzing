@@ -1,0 +1,1 @@
+def (begin;end).bug_20234; end

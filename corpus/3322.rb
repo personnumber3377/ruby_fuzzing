@@ -1,0 +1,1 @@
+1.nil? rescue 1

@@ -1,0 +1,1 @@
+# frozen-string-literal: false x\n""'foo'

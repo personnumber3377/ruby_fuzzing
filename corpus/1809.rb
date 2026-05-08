@@ -1,0 +1,1 @@
+class TestClass; def hello; 'from box'; end; end

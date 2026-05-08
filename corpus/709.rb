@@ -1,0 +1,1 @@
+def foo(bar: bar) = bar; foo

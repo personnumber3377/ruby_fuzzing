@@ -1,0 +1,3 @@
+do
+        r.close
+      end

@@ -1,0 +1,1 @@
+temporally_method_for_test_eval_and_define_method {}

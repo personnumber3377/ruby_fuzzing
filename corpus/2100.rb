@@ -1,0 +1,1 @@
+obj.test(foo: 123)

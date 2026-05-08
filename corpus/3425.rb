@@ -1,0 +1,1 @@
+class Forwarding; def to_s; super; end; end

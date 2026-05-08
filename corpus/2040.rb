@@ -1,0 +1,3 @@
+do
+        foo(obj)
+      end

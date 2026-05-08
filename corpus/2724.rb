@@ -1,0 +1,3 @@
+do
+          lambda { super() }
+        end

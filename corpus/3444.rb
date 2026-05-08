@@ -1,0 +1,1 @@
+def prism_test_no_keywords(**nil); end

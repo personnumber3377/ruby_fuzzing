@@ -1,0 +1,1 @@
+proc{|c|c.define_method(:x) {|x|throw x}}

@@ -1,0 +1,1 @@
+defined?(module M; end)

@@ -1,0 +1,2 @@
+do
+    class A; end

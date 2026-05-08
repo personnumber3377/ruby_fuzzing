@@ -1,0 +1,4 @@
+do
+      $; = "www"
+      $; = nil
+    end

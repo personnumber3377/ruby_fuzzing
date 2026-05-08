@@ -1,0 +1,3 @@
+do
+      [[p]].flatten
+    end

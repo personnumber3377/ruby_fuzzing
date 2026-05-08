@@ -1,0 +1,1 @@
+def self.m; yield [:ok]; end; m {|v0,| v0 }

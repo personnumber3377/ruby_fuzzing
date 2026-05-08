@@ -1,0 +1,1 @@
+r = []; for i, j in {a: 'b'} do; r << [i, j]; end; r

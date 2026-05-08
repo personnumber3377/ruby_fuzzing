@@ -1,0 +1,1 @@
+def example_method_#{$$}_with_keep_script_lines; end

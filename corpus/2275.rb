@@ -1,0 +1,1 @@
+class ::C\u{df}; self; end

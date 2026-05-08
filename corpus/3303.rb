@@ -1,0 +1,1 @@
+r = []; for foo, in  [1,2,3] do r << foo end; r

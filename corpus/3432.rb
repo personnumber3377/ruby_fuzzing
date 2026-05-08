@@ -1,0 +1,1 @@
+alias $prism_foo $prism_bar

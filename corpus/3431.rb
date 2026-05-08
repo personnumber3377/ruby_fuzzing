@@ -1,0 +1,1 @@
+def to_s; super(1, 2, 3, &:foo); end

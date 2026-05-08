@@ -1,0 +1,1 @@
+def c(#{args}, *b); [#{args}, b] end

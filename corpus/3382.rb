@@ -1,0 +1,1 @@
+def self.m(a = b = c = 1); [a, b, c]; end; self.m

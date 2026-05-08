@@ -1,0 +1,1 @@
+def self.foo(v, (*)); v; end; foo(1, [2, 3, 4])

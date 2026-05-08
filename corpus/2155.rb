@@ -1,0 +1,3 @@
+do
+      private :foo
+    end

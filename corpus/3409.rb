@@ -1,0 +1,1 @@
+foo = 1; END { END { foo.nil? }}

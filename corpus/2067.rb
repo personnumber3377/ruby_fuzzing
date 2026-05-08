@@ -1,0 +1,1 @@
+dout.sync=true; def rec; print "."; 1.times{1.times{1.times{rec}}}; end

@@ -1,0 +1,1 @@
+Bug15891 = Class.new.freeze

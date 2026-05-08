@@ -1,0 +1,3 @@
+do
+      receiver::FOO
+    end

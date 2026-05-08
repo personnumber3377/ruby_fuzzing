@@ -1,0 +1,1 @@
+__dir__", "arbitrary/file.rb

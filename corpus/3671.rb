@@ -1,0 +1,3 @@
+do
+        ENV.rehash
+      end

@@ -1,0 +1,1 @@
+def self.prism_test_def_node(*a) a end; prism_test_def_node().inspect

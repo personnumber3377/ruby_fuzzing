@@ -1,0 +1,1 @@
+class PrismClassA; end; class PrismClassB < PrismClassA; end

@@ -1,0 +1,1 @@
+def foo(x, _, _: 1) x end

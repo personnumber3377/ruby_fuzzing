@@ -1,0 +1,1 @@
+[1, 2, 3] #{operator} #{constant}[1, 2, *]

@@ -1,0 +1,1 @@
+def foo1; tap {a=1; a()}; end

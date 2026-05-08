@@ -1,0 +1,3 @@
+down
+    @box = nil
+  end

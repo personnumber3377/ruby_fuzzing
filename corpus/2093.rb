@@ -1,0 +1,1 @@
+class TestCallee; __callee__; end

@@ -1,0 +1,1 @@
+class IO\u{26a1} < IO;self;end

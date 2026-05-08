@@ -1,0 +1,1 @@
+defined?(class << self; end)

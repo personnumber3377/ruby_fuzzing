@@ -1,0 +1,1 @@
+a = 0 rescue (a += 1 && retry if a <= 1)

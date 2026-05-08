@@ -1,0 +1,3 @@
+do
+        require 'socket'
+      end

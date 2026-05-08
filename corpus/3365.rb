@@ -1,0 +1,1 @@
+def self.prism_test_def_node(n) n == 0 ? 1 : prism_test_def_node(n-1) end; prism_test_def_node(5)

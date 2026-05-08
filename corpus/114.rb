@@ -1,0 +1,1 @@
+def foo0; #{a}=1; nil; end

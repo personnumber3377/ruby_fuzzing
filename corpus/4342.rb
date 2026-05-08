@@ -1,0 +1,1 @@
+/\xa1\xa1/n".force_encoding("euc-jp

@@ -1,0 +1,3 @@
+do
+          undef +
+        end

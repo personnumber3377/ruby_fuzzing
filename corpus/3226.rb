@@ -1,0 +1,1 @@
+foo = { a: 1 }; bar = foo; { **foo, b: 2, **bar, c: 3 }

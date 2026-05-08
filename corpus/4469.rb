@@ -1,0 +1,3 @@
+doc:
+      str.dump
+    end

@@ -1,0 +1,1 @@
+begin; Object.new => [1, 2, 3]; rescue NoMatchingPatternError; true; end

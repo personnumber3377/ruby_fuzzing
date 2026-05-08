@@ -1,0 +1,1 @@
+defined?(unless true; 1; end)

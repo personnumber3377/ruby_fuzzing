@@ -1,0 +1,1 @@
+def to_s; super('a', :b, [1,2,3]); end

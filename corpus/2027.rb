@@ -1,0 +1,1 @@
+x = proc { 1.to_s }; x.call; x.call

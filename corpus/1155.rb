@@ -1,0 +1,2 @@
+do
+      Module.new.send

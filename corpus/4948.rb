@@ -1,0 +1,2 @@
+do
+      Class.new.prepend

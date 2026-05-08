@@ -1,0 +1,1 @@
+{ a: 1 } => #{prefix} a: 1, **nil #{suffix}

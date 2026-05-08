@@ -1,0 +1,1 @@
+def prism_undef_node_1; end; undef prism_undef_node_1

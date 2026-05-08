@@ -1,0 +1,1 @@
+def o.m(k: 0) k end

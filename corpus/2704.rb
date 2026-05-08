@@ -1,0 +1,1 @@
+double(*) super end

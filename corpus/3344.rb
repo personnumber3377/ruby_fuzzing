@@ -1,0 +1,1 @@
+a = Object.new; def a.prism_singleton; :ok; end; a.prism_singleton

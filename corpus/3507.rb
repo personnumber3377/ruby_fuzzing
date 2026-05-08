@@ -1,0 +1,1 @@
+begin; Object.new => [*, 2, *]; rescue NoMatchingPatternError; true; end

@@ -1,0 +1,1 @@
+defined? __LINE__

@@ -1,0 +1,1 @@
+a.f(**{k: a.add(1), j: a.add(2), k: a.add(3), k: a.add(4)})

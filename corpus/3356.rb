@@ -1,0 +1,1 @@
+def self.prism_test_def_node(a: 1, b: 2, c: 4) a + b + c; end; prism_test_def_node(b: 3)

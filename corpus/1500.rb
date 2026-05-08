@@ -1,0 +1,1 @@
+Class.new{def example_method; end}.instance_method(:example_method)

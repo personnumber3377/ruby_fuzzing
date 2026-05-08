@@ -1,0 +1,1 @@
+def prism_test_yield_node; yield; 1; end

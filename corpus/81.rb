@@ -1,0 +1,1 @@
+[4].each {|n| true if #{code}}

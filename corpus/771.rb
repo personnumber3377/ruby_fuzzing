@@ -1,0 +1,1 @@
+do |a, k: nil, &nil| end

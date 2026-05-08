@@ -1,0 +1,3 @@
+do
+      obj.foo(*[])
+    end

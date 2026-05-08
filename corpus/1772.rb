@@ -1,0 +1,2 @@
+do
+      str.__send

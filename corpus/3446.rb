@@ -1,0 +1,1 @@
+def prism_test_optional_param_node(bar = nil); end

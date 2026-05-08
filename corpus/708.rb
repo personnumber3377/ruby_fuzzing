@@ -1,0 +1,1 @@
+proc {|var = 1| var}

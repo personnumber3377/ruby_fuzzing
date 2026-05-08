@@ -1,0 +1,1 @@
+do raise NotImplementedError, "Not a RuntimeError" end

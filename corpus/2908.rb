@@ -1,0 +1,3 @@
+do
+      buffer.free
+    end

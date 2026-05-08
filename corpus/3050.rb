@@ -1,0 +1,1 @@
+defined? X *= 1

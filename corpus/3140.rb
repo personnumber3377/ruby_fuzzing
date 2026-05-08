@@ -1,0 +1,1 @@
+Prism::CPAWN = 1; Prism::CPAWN &&= 2

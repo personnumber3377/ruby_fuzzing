@@ -1,0 +1,1 @@
+defined? #{self.class.name}::Z::A

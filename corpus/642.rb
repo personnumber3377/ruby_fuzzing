@@ -1,0 +1,3 @@
+do
+        OBJ.clone
+      end

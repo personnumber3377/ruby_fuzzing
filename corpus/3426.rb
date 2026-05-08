@@ -1,0 +1,1 @@
+class Forwarding; def eval(code); super { code }; end; end

@@ -1,0 +1,1 @@
+class Prism::TestCompilePrism; @pit, @pit1 = 1; end

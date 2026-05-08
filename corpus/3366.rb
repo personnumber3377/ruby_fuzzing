@@ -1,0 +1,1 @@
+class PrismTestDefNode; def prism_test_def_node() 1 end end;  PrismTestDefNode.new.prism_test_def_node

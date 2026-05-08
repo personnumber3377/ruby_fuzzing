@@ -1,0 +1,1 @@
+proc {|i| if 2..4; i; end}

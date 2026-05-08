@@ -1,0 +1,1 @@
+class R\u{e9}sum\u{e9}; self; end

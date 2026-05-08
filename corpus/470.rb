@@ -1,0 +1,2 @@
+do
+        if Thread.pend

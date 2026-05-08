@@ -1,0 +1,1 @@
+def prism_test_def_node; end

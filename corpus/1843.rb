@@ -1,0 +1,1 @@
+Module.new do break class C\u{4032}; self; end; end

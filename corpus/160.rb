@@ -1,0 +1,4 @@
+do
+      begin;
+        $1 &= 1
+      end

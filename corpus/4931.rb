@@ -1,0 +1,3 @@
+do
+      y.bar
+    end

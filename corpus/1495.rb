@@ -1,0 +1,1 @@
+def self.example_singleton_method_#{$$}; end

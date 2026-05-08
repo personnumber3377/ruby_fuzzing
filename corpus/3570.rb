@@ -1,0 +1,1 @@
+module Prism; @@prism = 1; 1 in ^@@prism; end

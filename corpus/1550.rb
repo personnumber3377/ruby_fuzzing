@@ -1,0 +1,1 @@
+vs.select {|n| if n==3..n==6 then 1 end}

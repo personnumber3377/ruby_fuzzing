@@ -1,0 +1,1 @@
+class IMath; include Math; end

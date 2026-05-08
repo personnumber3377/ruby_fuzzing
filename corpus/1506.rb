@@ -1,0 +1,1 @@
+Class.new{def example_method_with_keep_script_lines; end}.instance_method(:example_method_with_keep_script_lines)

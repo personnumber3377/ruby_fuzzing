@@ -1,0 +1,1 @@
+def d(#{args1}, *b); [#{args1}, b] end

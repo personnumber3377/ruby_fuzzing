@@ -1,0 +1,2 @@
+do
+          def baz; end

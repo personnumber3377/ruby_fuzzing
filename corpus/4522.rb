@@ -1,0 +1,1 @@
+class X\u{307b 3052}; self; end".encode("euc-jp

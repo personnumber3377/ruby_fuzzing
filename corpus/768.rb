@@ -1,0 +1,1 @@
+do |*rest, p, &nil| end

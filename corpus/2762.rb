@@ -1,0 +1,1 @@
+def #{name}; tap {}; end

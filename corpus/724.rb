@@ -1,0 +1,1 @@
+def foo(_=42, x, **_) x end

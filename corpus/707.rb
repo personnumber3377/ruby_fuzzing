@@ -1,0 +1,1 @@
+def foo(var = def bar(var) var; end) var end

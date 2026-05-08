@@ -1,0 +1,3 @@
+do
+        GC.start
+      end

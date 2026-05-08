@@ -1,0 +1,3 @@
+do
+        Mutex.new
+      end

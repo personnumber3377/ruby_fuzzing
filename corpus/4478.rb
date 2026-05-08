@@ -1,0 +1,1 @@
+class C3; def _dump(s); 'foo'; end; end

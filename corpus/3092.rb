@@ -1,0 +1,1 @@
+defined?(itself { 1 }.itself)

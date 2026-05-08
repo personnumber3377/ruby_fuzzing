@@ -1,0 +1,1 @@
+defined?(`echo #{1}`)

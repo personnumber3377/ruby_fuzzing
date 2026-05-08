@@ -1,0 +1,1 @@
+def prism_test_block_parameter_node(&); end

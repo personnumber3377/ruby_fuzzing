@@ -1,0 +1,1 @@
+double_splat(a, b, **opts); end

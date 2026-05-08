@@ -1,0 +1,1 @@
+define_singleton_method(:example_dsm_#{$$}){}

@@ -1,0 +1,1 @@
+class X\u{df} < Module; self; end

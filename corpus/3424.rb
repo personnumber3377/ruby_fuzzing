@@ -1,0 +1,1 @@
+prism_test_call_node_splat(*[], 1, 2)

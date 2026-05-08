@@ -1,0 +1,1 @@
+def self.foo(a:, b:); [a, b]; end; foo(a: 1, b: 2)

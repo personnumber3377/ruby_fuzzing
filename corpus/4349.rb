@@ -1,0 +1,1 @@
+#!/usr/bin/ruby\n# -*- encoding: US-ASCII -*-\n__ENCODING__".force_encoding("ASCII-8BIT

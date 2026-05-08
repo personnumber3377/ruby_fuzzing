@@ -1,0 +1,1 @@
+proc{|o|o.define_singleton_method(:x) {|x|throw x}}

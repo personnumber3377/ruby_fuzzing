@@ -1,0 +1,1 @@
+defined?(Prism::CPOrWN ||= 1)

@@ -1,0 +1,3 @@
+do
+      array.sort!
+    end

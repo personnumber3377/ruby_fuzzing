@@ -1,0 +1,1 @@
+raise 'bang' rescue nil

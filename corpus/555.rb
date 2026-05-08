@@ -1,0 +1,1 @@
+@@test_cvar_scope_with_instance_eval

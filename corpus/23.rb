@@ -1,0 +1,1 @@
+class TestBeginEndBlock; BEGIN {}; end

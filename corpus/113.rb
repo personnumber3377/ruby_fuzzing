@@ -1,0 +1,1 @@
+def bar; a=1; a(); end

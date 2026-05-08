@@ -1,0 +1,1 @@
+def self.prism_test_def_node(a,b=7,*c,&block) c end; prism_test_def_node(7,7,1).inspect

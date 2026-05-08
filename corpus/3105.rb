@@ -1,0 +1,1 @@
+defined?(Prism::CPOWN += 1)

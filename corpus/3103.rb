@@ -1,0 +1,1 @@
+defined?(PrismTestSubclass.test_call_or_write_node ||= 1)

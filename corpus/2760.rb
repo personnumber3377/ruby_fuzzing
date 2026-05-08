@@ -1,0 +1,1 @@
+#{name} = nil; Ractor.shareable_proc{#{name} = nil}

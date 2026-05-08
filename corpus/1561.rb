@@ -1,0 +1,1 @@
+class C\u{309a 26a1 26c4 1f300};self;end

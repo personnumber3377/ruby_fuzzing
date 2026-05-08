@@ -1,0 +1,1 @@
+proc{|#{args}, b, *c, d| [#{args}, b, c, d]}

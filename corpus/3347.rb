@@ -1,0 +1,1 @@
+def self.prism_test_def_node(a,x=7,y=1) x end; prism_test_def_node(7,1)

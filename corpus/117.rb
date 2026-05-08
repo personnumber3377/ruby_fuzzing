@@ -1,0 +1,1 @@
+def bar2; a, = 1, 2; end

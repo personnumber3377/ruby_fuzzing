@@ -1,0 +1,3 @@
+do
+      m.synchronize {}
+    end

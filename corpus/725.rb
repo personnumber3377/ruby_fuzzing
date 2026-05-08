@@ -1,0 +1,1 @@
+<<-#{eos}\n#{expect}eos\n

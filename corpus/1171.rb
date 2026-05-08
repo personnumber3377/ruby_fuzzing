@@ -1,0 +1,3 @@
+do
+        def foo
+        end

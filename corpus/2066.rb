@@ -1,0 +1,1 @@
+dout.sync=true; def rec; print "."; rec; end

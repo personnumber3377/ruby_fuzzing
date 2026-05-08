@@ -1,0 +1,1 @@
+#{name} = []; Ractor.shareable_proc{#{name}}

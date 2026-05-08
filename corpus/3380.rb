@@ -1,0 +1,1 @@
+def self.m(a, _, _, _ = 1, _ = 2, b); end; method(:m).parameters

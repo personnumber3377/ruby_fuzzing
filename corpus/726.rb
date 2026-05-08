@@ -1,0 +1,1 @@
+<<~#{eos}\n#{result}eos\n

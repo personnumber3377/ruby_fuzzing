@@ -1,0 +1,1 @@
+r = []; for i in [1,2] do; r << i; end; r

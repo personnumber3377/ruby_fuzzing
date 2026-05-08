@@ -1,0 +1,1 @@
+sc = Class.new; sc::C = nil; defined?(sc::C::Object)

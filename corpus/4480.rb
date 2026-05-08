@@ -1,0 +1,1 @@
+C3 = Struct.new(:foo, :bar)

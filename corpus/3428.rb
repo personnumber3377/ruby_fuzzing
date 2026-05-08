@@ -1,0 +1,1 @@
+def to_s; super 1; end

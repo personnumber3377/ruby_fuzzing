@@ -1,0 +1,1 @@
+defined?(itself.itself.itself)

@@ -1,0 +1,1 @@
+case; when false, *x, false; end

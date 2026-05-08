@@ -1,0 +1,1 @@
+def prism_test_required_param_node(foo, bar); end

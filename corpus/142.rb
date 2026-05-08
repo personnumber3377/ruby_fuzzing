@@ -1,0 +1,1 @@
+BEGIN{throw tag}; tap {a = 1}; a

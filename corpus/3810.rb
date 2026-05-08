@@ -1,0 +1,1 @@
+def o.bar(a:,**b) [a, b]; end

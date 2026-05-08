@@ -1,0 +1,1 @@
+def prism_test_rest_parameter_node(*a); end

@@ -1,0 +1,1 @@
+#{code} =~ #{token.dump}; defined?(a)

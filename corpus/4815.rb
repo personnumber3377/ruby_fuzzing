@@ -1,0 +1,1 @@
+remove_const(:MODULE_EVAL)

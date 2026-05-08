@@ -1,0 +1,19 @@
+do
+      s[
+        s[s[i][i]][k[i]]
+      ][
+        k[inc]
+      ][
+        s[
+          s[
+            k[s]
+          ][
+            s[k[s[k[s]]]
+          ][
+            s[s[k[s]][s[k[s[k[ret]]]][s[k[s[i]]][k]]]][k]]
+          ]
+        ][
+          k[s[k[s]][k]]
+        ]
+      ]
+    end

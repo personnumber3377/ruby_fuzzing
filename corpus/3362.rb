@@ -1,0 +1,1 @@
+def self.prism_test_def_node(x,a) a end; prism_test_def_node(7,*[1])

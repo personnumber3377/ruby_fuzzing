@@ -1,0 +1,1 @@
+defined?(for i in [1,2] do; i; end)

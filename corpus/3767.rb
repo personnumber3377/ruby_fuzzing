@@ -1,0 +1,3 @@
+do
+        Child.cvar
+      end
