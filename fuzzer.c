@@ -1,6 +1,9 @@
 #include "ruby.h"
 #include "ruby/debug.h"
 
+// Include the python bridge stuff too...
+#include "python_bridge.cpp"
+
 #include <stdint.h>
 #include <stddef.h>
 #include <string.h>

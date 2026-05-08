@@ -240,3 +240,134 @@ def introspection():
 
 def init_trim(buf):
     return 0
+
+#
+# libFuzzer Python bridge compatibility layer
+#
+
+def _decode(buf):
+    try:
+        return bytes(buf).decode("utf-8", errors="ignore")
+    except Exception:
+        return ""
+
+def _encode(s, max_size):
+    out = s.encode("utf-8", errors="ignore")
+
+    if len(out) > max_size:
+        out = out[:max_size]
+
+    return bytearray(out)
+
+
+def custom_mutator(data, max_size, seed, mutate_cb):
+    """
+    Signature expected by your C++ Python bridge:
+
+        custom_mutator(
+            data: bytearray,
+            max_size: int,
+            seed: int,
+            mutate_cb
+        ) -> bytearray
+    """
+
+    global last_desc
+
+    random.seed(seed)
+
+    src = _decode(data)
+
+    #
+    # Sometimes stack native libFuzzer mutation FIRST.
+    # This is very effective.
+    #
+    if random.random() < 0.35:
+        try:
+            mutate_cb(data, max_size)
+            src = _decode(data)
+            last_desc = "native_stack"
+        except Exception:
+            pass
+
+    #
+    # Sometimes generate from scratch.
+    #
+    if not src or random.random() < 0.15:
+        out = generate_program()
+        last_desc = "generate_program"
+
+    else:
+        out = mutate_existing(src)
+
+    #
+    # Occasionally inject extra stress snippet.
+    #
+    if random.random() < 0.10:
+        out += "\n" + random.choice(STRESS_SNIPPETS)
+
+    return _encode(out, max_size)
+
+
+def custom_crossover(data1, data2, max_out_size, seed):
+    """
+    Signature expected by your C++ bridge:
+
+        custom_crossover(
+            data1: bytearray,
+            data2: bytearray,
+            max_out_size: int,
+            seed: int
+        ) -> bytearray
+    """
+
+    global last_desc
+
+    random.seed(seed)
+
+    src1 = _decode(data1)
+    src2 = _decode(data2)
+
+    toks1 = tokenize(src1)
+    toks2 = tokenize(src2)
+
+    #
+    # Fallback if tokenization failed
+    #
+    if not toks1:
+        toks1 = [src1]
+
+    if not toks2:
+        toks2 = [src2]
+
+    #
+    # Token-level crossover
+    #
+    split1 = random.randrange(len(toks1) + 1)
+    split2 = random.randrange(len(toks2) + 1)
+
+    merged = toks1[:split1] + toks2[split2:]
+
+    #
+    # Occasionally insert structural wrapper
+    #
+    out = untokenize(merged)
+
+    if random.random() < 0.25:
+        out = random.choice(WRAPPERS) % out
+
+    #
+    # Occasionally append random stmt
+    #
+    if random.random() < 0.20:
+        out += "\n" + rand_stmt()
+
+    #
+    # Rarely generate hybrid semantic constructs
+    #
+    if random.random() < 0.10:
+        out += "\n" + random.choice(STRESS_SNIPPETS)
+
+    last_desc = "token_crossover"
+
+    return _encode(out, max_out_size)
